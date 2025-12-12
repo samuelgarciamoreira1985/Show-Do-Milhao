@@ -1,0 +1,240 @@
+.container-MainMenu {
+    width: 100vw;    
+}
+
+/* *************MEDIA QUERIES************** */
+
+            /*
+             MOBILE - ATÉ 768px
+             TABLET - 768px até 1024px
+             DESKTOP - 1024px até 1200px
+             GRANDES TELAS - ACIMA DE 1200PX
+            */
+
+@media screen and (max-width: 768px) { /* CELULARES */
+
+    .group-mainmenu {
+        width: 100vw;
+        height: 100vh;
+        background-color: #004AAD;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group-mainmenu img {
+        width: 100vw;
+        align-self: center;
+        align-content: center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .group-mainmenu p {
+        text-align: center;
+        color: #F5CE55;
+        text-shadow: 1px 1px 2px black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: -20px;
+    }
+
+    .group-mainmenu button {
+        align-self: center;
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        background: linear-gradient(to left, #920200,#92020091);
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        outline: 3px solid #ffffff;
+        align-content: center;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .group-mainmenu button:hover {
+        background-color: #920200;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
+
+    .group-mainmenu {
+        width: 100vw;
+        height: 100vh;
+        background-color: #004AAD;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group-mainmenu img {
+        width: 100vw;
+        align-self: center;
+        align-content: center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        margin-top: 100px;
+    }
+
+    .group-mainmenu p {
+        text-align: center;
+        color: #F5CE55;
+        text-shadow: 1px 1px 2px black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: -20px;
+    }
+
+    .group-mainmenu button {
+        align-self: center;
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        background: linear-gradient(to left, #920200,#92020091);
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        outline: 3px solid #ffffff;
+        align-content: center;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .group-mainmenu button:hover {
+        background-color: #920200;
+    }
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) { /* DESKTOP */
+
+    .group-mainmenu {
+        width: 100vw;
+        height: 100vh;
+        background-color: #004AAD;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group-mainmenu img {
+        width: 100vw;
+        align-self: center;
+        align-content: center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .group-mainmenu p {
+        text-align: center;
+        color: #F5CE55;
+        text-shadow: 1px 1px 2px black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        font-weight: 600;
+        margin-top: -20px;
+    }
+
+    .group-mainmenu button {
+        align-self: center;
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        background: linear-gradient(to left, #920200,#92020091);
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        outline: 3px solid #ffffff;
+        align-content: center;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .group-mainmenu button:hover {
+        background-color: #920200;
+    }
+
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
+    
+    .group-mainmenu {
+        width: 100vw;
+        height: 100vh;
+        background-color: #004AAD;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .group-mainmenu img {
+        width: 80vw;
+        align-self: center;
+        align-content: center;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 20px;
+        margin-top: 10px;
+    }
+
+    .group-mainmenu p {
+        text-align: center;
+        color: #F5CE55;
+        text-shadow: 1px 1px 2px black;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.7rem;
+        font-weight: 600;
+        margin-top: -20px;
+    }
+
+    .group-mainmenu button {
+        align-self: center;
+        text-decoration: none;
+        color: white;
+        text-shadow: 1px 1px 2px black;
+        font-size: 1.2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 600;
+        background: linear-gradient(to left, #920200,#92020091);
+        width: 200px;
+        height: 50px;
+        text-align: center;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        outline: 3px solid #ffffff;
+        align-content: center;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    .group-mainmenu button:hover {
+        background-color: #920200;
+    }
+
+}            

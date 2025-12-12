@@ -1,0 +1,28 @@
+.container-gameplay {
+    width: 100vw;
+}
+
+/* *************MEDIA QUERIES************** */
+
+            /*
+             MOBILE - ATÉ 768px
+             TABLET - 768px até 1024px
+             DESKTOP - 1024px até 1200px
+             GRANDES TELAS - ACIMA DE 1200PX
+            */
+
+@media screen and (max-width: 768px) { /* CELULARES */
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */
+
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) { /* DESKTOP */
+
+}
+
+@media screen and (min-width: 1200px) { /* GRANDES TELAS */
+    
+}            
