@@ -13,6 +13,85 @@
 
 @media screen and (max-width: 768px) { /* CELULARES */
 
+    .sub-container-gameplay {
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(to left, #435BEE, #0C1B66);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .questions {
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        margin-top: 10px;
+        align-items: center;
+    }
+
+    .description-question {
+        width: 95vw;
+        height: 100px;
+        border: 1px solid #A50100;
+        outline: 3px solid white;
+        border-radius: 20px;
+        background: linear-gradient(to top, #E60101, #A50100);
+        padding: 10px;
+    }
+
+    .description-question p {
+        color: white;
+    }
+
+    .response {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        align-self: flex-start;
+        gap: 12px;
+        width: 97.5vw;
+        padding: 10px;
+    }
+
+    .response-index {
+        background-color: #B09522;
+        border: 1px solid #B09522;
+        border-radius: 50%;
+        outline: 3px solid white;
+        width: 12vw;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .response-index span {
+        align-self: center;
+        color: white;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4rem;
+    }
+
+    .response-info {
+        background: linear-gradient(to top, #E60101, #A50100);
+        border: 1px solid #B09522;
+        border-radius: 20px;
+        outline: 2.5px solid white;
+        height: 50px;
+        width: 90vw;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .response-info p {
+        color: white;
+        font-weight: 600;
+        align-self: center;
+        text-indent: 15px;
+        font-size: 1.1rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) { /* TABLETS */

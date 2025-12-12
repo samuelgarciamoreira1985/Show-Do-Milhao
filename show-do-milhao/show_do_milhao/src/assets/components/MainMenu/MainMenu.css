@@ -15,10 +15,11 @@
 
     .group-mainmenu {
         width: 100vw;
-        height: 100vh;
         background-color: #004AAD;
         display: flex;
         flex-direction: column;
+        height: 100vh;
+        justify-content: center;
     }
 
     .group-mainmenu img {
@@ -29,7 +30,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         padding: 20px;
-        margin-top: 100px;
+        
     }
 
     .group-mainmenu p {
@@ -72,10 +73,11 @@
 
     .group-mainmenu {
         width: 100vw;
-        height: 100vh;
         background-color: #004AAD;
         display: flex;
         flex-direction: column;
+        height: 100vh;
+        justify-content: center;
     }
 
     .group-mainmenu img {
@@ -129,10 +131,11 @@
 
     .group-mainmenu {
         width: 100vw;
-        height: 100vh;
         background-color: #004AAD;
         display: flex;
         flex-direction: column;
+        height: 100vh;
+        justify-content: center;
     }
 
     .group-mainmenu img {
@@ -186,10 +189,11 @@
     
     .group-mainmenu {
         width: 100vw;
-        height: 100vh;
         background-color: #004AAD;
         display: flex;
         flex-direction: column;
+        height: 100vh;
+        justify-content: center;
     }
 
     .group-mainmenu img {
