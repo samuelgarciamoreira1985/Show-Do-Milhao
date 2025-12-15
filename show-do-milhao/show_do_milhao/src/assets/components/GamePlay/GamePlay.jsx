@@ -91,17 +91,17 @@ const GamePlay = () => {
             <div className="score-money">
 
                 <div className="score-money-details">
-                    <p className="value-money">500</p>
+                    <p className="value-money-err">500</p>
                     <img src={gold} alt="imagem - Barra de ouro - Errar" />
                     <p>Errar</p>
                 </div>
                 <div className="score-money-details">
-                    <p className="value-money">1 MIL</p>
+                    <p className="value-money-stop">1 MIL</p>
                     <img src={gold} alt="imagem - Barra de ouro - Errar" />
                     <p>Parar</p>
                 </div>
                 <div className="score-money-details">
-                    <p className="value-money">2 MIL</p>
+                    <p className="value-money-correct">2 MIL</p>
                     <img src={gold} alt="imagem - Barra de ouro - Errar" />
                     <p>Acertar</p>
                 </div>

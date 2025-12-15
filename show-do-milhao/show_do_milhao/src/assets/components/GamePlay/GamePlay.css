@@ -221,12 +221,12 @@
         align-items: center;
         justify-content: center;
         gap: 60px;
+        position: relative;
     }
 
     .score-money-details {
         display: flex;
         flex-direction: column ;
-        position: relative;
     }
 
     .score-money-details p {
@@ -234,7 +234,7 @@
         font-size: 1.3rem;
         text-shadow: 1px 1px 2px #000000;
         position: absolute;
-        top: 30px;
+        top: 32px;
     }
 
     .score-money-details img {
@@ -242,14 +242,36 @@
         height: 50px;
     }
 
-    .score-money-details .value-money {
+    .score-money-details .value-money-err {
         color: #ff0202;
         font-weight: 500;
         text-shadow: .2px .2px .5px #ffffff;
         font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
         font-size: 1.4rem;
         position: absolute;
-        left: 20px;
+        left: 100px;
+        top: 8px;
+    }
+
+    .score-money-details .value-money-stop {
+        color: #ff0202;
+        font-weight: 500;
+        text-shadow: .2px .2px .5px #ffffff;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.4rem;
+        position: absolute;
+        left: 230px;
+        top: 8px;
+    }
+
+    .score-money-details .value-money-correct {
+        color: #ff0202;
+        font-weight: 500;
+        text-shadow: .2px .2px .5px #ffffff;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 1.4rem;
+        position: absolute;
+        left: 360px;
         top: 8px;
     }
 
