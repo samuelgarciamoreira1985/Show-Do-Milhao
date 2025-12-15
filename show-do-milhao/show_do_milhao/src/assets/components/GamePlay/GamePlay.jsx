@@ -52,10 +52,6 @@ const GamePlay = () => {
 
             <div className="help">
 
-                <div className="button-stop-game">
-                    <button type="button">PARAR</button>
-                </div>
-
                 <div className="group-items-help">
                   <h3>AJUDA</h3>
                     <div className="items-1">
@@ -110,7 +106,12 @@ const GamePlay = () => {
                     <p>Acertar</p>
                 </div>
 
+
             </div>
+
+                <div className="button-stop-game">
+                    <button type="button">PARAR</button>
+                </div>
 
         </div>
 
